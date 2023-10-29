@@ -1,0 +1,55 @@
+<!-- CALCULATOR -->
+
+<html>
+    <head>
+        <title>CALCULATOR</title>
+        <script src="calc.js"></script>
+        <style>
+            #fn
+            {
+                margin-top: 2px;
+            }
+            .frst
+            {
+                margin-right: 28px;
+            }
+            #sd
+            {
+                margin-top: 30px;
+            }
+            .scnd
+            {
+                margin-right: 10px;
+            }
+            #opt
+            {
+                margin-top: 25px;
+                margin-left: 117px;
+            }
+            .res
+            {
+                margin-top: 25px;
+                margin-left: 116px;
+            }
+            /* .rest
+            {
+                margin-right: 67px;
+            } */
+        </style>
+    </head>
+    <body>
+        <label for="ft" class="frst">First Number</label>
+        <input type="text" id="fn" name="ft" ><br>
+        <label for="scd" class="scnd">Second Number</label>
+        <input type="text" id="sd" name="scd" ><br>
+        <select id="opt">
+            <option value="+">+</option>
+            <option value="-">-</option>
+            <option value="*">*</option>
+            <option value="/">/</option>
+            <option value="%">%</option>
+        </select><br>
+        <!-- <label for="rt" class="rest">Result:</label> -->
+        <input type="button" name="rt" class="res" value="Result" onclick="calculation()">
+    </body>
+</html>

@@ -1,0 +1,56 @@
+<!-- Chessboard -->
+
+<html>
+    <head>
+        <title>CHESS BOARD</title>
+        <style>
+            #sqrblk
+            {
+                background-color: black;
+                width: 85px;
+                height: 85px;
+            }
+            #sqrwht
+            {
+                background-color: white;
+                width: 85px;
+                height: 85px;
+            }
+            #brd
+            {
+                border: 3px solid black;
+            }
+        </style>
+        <link rel="stylesheet" href="chessboard.css">
+    </head>
+    <body>
+        <div style="border-color: black; border: 20px;">    
+                <script>
+                    // function coloring()
+                    // {
+                    //     document.getElementById('sqr').style.backgroundColor='black'
+                    // }
+                    document.write('<table id="brd">')
+                    for(var i=0;i<8;i++)
+                    {
+                        document.write('<tr>')
+                            for(var j=0;j<8;j++)
+                            {
+                                if((i+j)%2==0)
+                                {
+                                    document.write('<td id="sqrblk">');
+                                    document.write('</td>');   
+                                } 
+                                else
+                                {
+                                    document.write('<td id="sqrwht">');
+                                    document.write('</td>');   
+                                }
+                            }
+                        document.write('</tr>')
+                    }
+                    document.write('</table>')
+                </script>
+        </div>
+    </body>
+    </html>

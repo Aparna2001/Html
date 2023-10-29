@@ -1,0 +1,115 @@
+<!-- Sample Flipkart Webpagge -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flipkart</title>
+    <link rel="stylesheet" href="flip.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body style="background-color: #f2f3f7;"> 
+    
+    <div class="container">
+        <div class="header">
+            <table>
+                <tr>
+                    <td>
+                        <div class="logo">
+                            <a class="logodisp" href="flip.html" style="font-style: italic;">Flipkart</a>
+                        </div>
+                    </td>
+                    <td>
+                        <img src="Flipkart-Emblem.png" alt="loading" width="70" height="50">
+                    </td>
+                    <td class="col" >
+                        <form class="example" action="/action_page.php">
+                            <input class="src" type="text" placeholder="Search for Products, Brands and More" name="search">
+                            <button type="submit"><i class="fa fa-search"></i></button>
+                          </form>                          
+                    </td>
+                    <!-- <td><label style="color: white; margin-right: 70%;">Hi, Aparna</label></td> -->
+                    <td>
+                        <select name="" id="opt">
+                            <option value="">Hi,Aparna</option>
+                            <option value="">Orders</option>
+                            <option value="">My Account</option>
+                            <option value="">Settings</option>
+                        </select>
+                    </td>
+                </tr>
+            </table>
+        </div>
+        <div class="body">
+            <div class="toprgt" style="background-color: white; position: relative;">
+                <div style="position: absolute; color: gray; margin-top: -120px; margin-left: -270px;">
+                    PRICE DETAILS
+                </div>
+                <div style="position: absolute; margin-top: -70px; margin-left: -270px;">
+                    Price(2 items)       <t style="margin-left: 190px;">  ₹958</t>  <br> 
+                    <br> 
+                    Devlivery Charges     <t style="margin-left: 158px;"> ₹40 </t><br> 
+                </div>
+                <div style="position: absolute; margin-top: 40px; margin-left: -270px;">
+                    Amount Payable       <t style="margin-left: 170px;">₹998</t>  
+                </div>
+                <div style="position: absolute; margin-top: 120px; margin-left: -270px; font-size: small; color: green;">
+                    Your Total Savings on this order, ₹1,200
+                </div>
+            </div>
+            <div class="toplft" style="background-color: white; position: relative;">
+                <div style="position: relative;">
+                    <img src="srt.jpeg" alt="loading" width="120" style="margin-left: -150px;margin-top: -170px;position: absolute;">
+                    <h5 style="position: absolute; margin-top: -150px;">Being Fab Men's Solid Formal Grey Shirt</h5>
+                    <h5 style="position: absolute; margin-top: -130px; color: gray;"> Size:40</h5>
+                    <h5 style="position: absolute;margin-top: -110px; color: gray;">Seller:Fablifestyle</h5>
+                    <img src="fas.jpg" alt="" style="position: absolute;margin-top: -110px; margin-left:120px;" width="55">
+                    <h5 style="position: absolute; margin-top: -90px;">₹479<s style="margin-left: 10px;color: gray; margin-right: 10px;">₹1,099</s><h6 style="position: absolute; margin-top: -90px; margin-left: 100px; color: green;">56% Off </h6><h6 style="position: absolute; margin-top: -90px; margin-left: 160px; color: green;"> 3 Offers Applied </h6></h5>
+                    <h6 style="position: absolute; margin-top: -150px; margin-left: 352px; color: gray;">Delivery by Tommorrow, Sun:₹40</h6>
+                    <h5 style="position: absolute; margin-top: -2px;">REMOVE</h5>
+                    <script>
+                        function incermentip1()
+                        {
+                            document.getElementById('ip1').stepUp()
+                        }
+                        function decermentip1()
+                        {
+                            document.getElementById('ip1').stepDown()
+                        }
+                        function incermentip2()
+                        {
+                            document.getElementById('ip2').stepUp()
+                        }
+                        function decermentip2()
+                        {
+                            document.getElementById('ip2').stepDown()
+                        }
+                    </script>
+                    <input type="number" id="ip1" style="margin-left: -105px;margin-top: -2px;position: absolute; width: 29px;" value="1">
+                    <input type="button" onclick="incermentip1()" style="margin-left: -70px;margin-top: -2px;position: absolute; border-radius: 5cm;" value="+" >
+                    <input type="button" onclick="decermentip1()" style="margin-left: -130px;margin-top: -2px;position: absolute; border-radius: 5cm;" value="-" >
+                </div>
+                <div style="position: relative;">
+                    <img src="srt3.jpeg" alt="loading" width="125" style="margin-left: -150px;margin-top: 77px;position: absolute;">
+                    <h5>Being Fab Men's Solid Formal Purple Shirt</h5>
+                    <h5 style="position: absolute; margin-top: -20px; color: gray;"> Size:38</h5>
+                    <h5 style="position: absolute;margin-top: 0px; color: gray;">Seller:Fablifestyle</h5>
+                    <h5 style="position: absolute; margin-top: 20px;">₹479<s style="margin-left: 10px;color: gray; margin-right: 10px;">₹1,099</s><h6 style="position: absolute; margin-top: 23px; margin-left: 100px; color: green;">56% Off </h6><h6 style="position: absolute; margin-top: 23px; margin-left: 160px; color: green;"> 3 Offers Applied </h6></h5>
+                    <h6 style="position: absolute; margin-top: -40px; margin-left: 352px; color: gray;">Free delivery by Tommorrow, Sun</h6>
+                    <h5 style="position: absolute; margin-top: 117px;">REMOVE</h5>
+                    <input type="number" id="ip2" style="margin-left: -105px;margin-top: 117px;position: absolute; width: 29px;" value="1">
+                    <input type="button" onclick="incermentip2()" style="margin-left: -70px;margin-top: 117px;position: absolute; border-radius: 5cm;" value="+" >
+                    <input type="button" onclick="decermentip2()" style="margin-left: -130px;margin-top: 117px;position: absolute; border-radius: 5cm;" value="-" >
+                </div>
+            </div>
+            <div class="btmlft" style="background-color: white; position: relative;">    
+                <input type="button" style="position: absolute; margin-top: -50px; margin-left: 380px; height: 40%; width: 20%;" value="< CONTINUE SHOPPING">
+                <input type="button" style="position: absolute; margin-top: -50px; margin-left: 600px; background-color: orangered; height: 40%; width: 20%;" value="PLACE ORDER">
+            </div>
+        </div>
+        
+    </div>        
+</body>
+</html>

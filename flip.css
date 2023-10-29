@@ -1,0 +1,104 @@
+.header{
+    background-color: #2873f0;
+    width: 100%;
+    height: 85px;
+}
+
+body{
+    margin: 0;
+    font-family: Helvetica Neue,Helvetica,Arial, Helvetica, sans-serif;
+}
+
+.logo{
+    width: 50%;
+    padding-top: 32px;
+    float: left;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.logodisp{
+    color: #fff;
+    font-size: 35px;
+    font-weight: bold;
+    text-decoration: none;
+    font-family: Helvetica Neue,Helvetica,Arial, Helvetica, sans-serif;
+    margin-left: 170px;
+}
+  
+.example input[type=text] {
+    padding: 10px;
+    font-size: 17px;
+    border: 1px solid grey;
+    float: left;
+    width: 80%;
+    background: #f1f1f1;
+  }
+  
+.example button {
+    float: left;
+    width: 5%;
+    padding: 10px;
+    background: #fee218;
+    color: white;
+    font-size: 17px;
+    border: 1px solid grey;
+    border-left: none; 
+    cursor: pointer;
+}
+  
+  
+.example::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+
+.col{
+    width: 80%;
+}
+
+#opt{
+    background-color: #2873f0;
+    color: white;
+    border: none;
+    margin-right: 100%;
+    float: right;
+}
+
+.toprgt{
+    padding: 140px;
+    padding-bottom: 190px;
+    padding-left: 300px;
+    float: right;
+    margin-right: 100px;
+    margin-left: 900px;
+    margin-top: 1px;
+}
+
+.toplft{
+    padding: 210px;
+    margin-left: 45px; 
+    margin-right: 550px;
+    margin-top: 20px;
+}
+
+.btmrgt{
+    padding: 150px;
+    padding-bottom: 10px;
+    padding-left: 290px;
+    float: right;
+    margin-right: 100px;
+    margin-left: 915px;
+    margin-top: -183px;   
+}
+
+.btmlft{
+    padding: 90px;
+    margin-left: 30px; 
+    margin-right: 550px;
+    margin-top: 10px;
+    padding-bottom: 10px;
+}
